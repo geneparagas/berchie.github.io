@@ -52,4 +52,7 @@ and (max-device-width : 667px)  {
 .gallery-item{
 	right: 15px;
 }
+.remove-margin{
+margin-bottom: 15px!important;
+}
 }
