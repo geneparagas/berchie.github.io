@@ -15,3 +15,41 @@
 .section--title h2.footer-white:before{
 	border-color: #fff
 }
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+.my-name{
+	font-size: 56px;
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)  {
+.banner--content{
+	width: 100%;
+}
+.my-name{
+	font-size: 46px;
+}
+.banner--content h2{
+	font-size: 30px;
+	line-height: 30px;
+}
+.about--info-wrapper{
+	padding: 10px;
+}
+.contact--address address p i.fa{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.mobile-center{
+	text-align: center;
+	margin-bottom: 20px !important;
+}
+.gallery-item{
+	right: 15px;
+}
+}
